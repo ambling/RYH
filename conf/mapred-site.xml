@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+	<property>
+		<name>mapred.job.tracker</name>
+			<value>10.76.1.132:9001</value>
+			<description>The host and port that the MapReduce job tracker runs
+			at.</description>
+	</property>
+	
+	<property>
+		<name>mapred.map.tasks</name>
+		<value>1</value>
+		<description>The default number of map tasks per job.
+		Ignored when mapred.job.tracker is "local".  
+		</description>
+	</property>
+	
+	<property>
+		<name>mapred.task.timeout</name>
+			<value>600000000</value>
+			<description>The time limit for each task</description>
+	</property>
+	
+	<property>
+		<name>mapred.child.java.opts</name>
+			<value>-Xmx1024M</value>
+			<description>Larger heap-size for child jvms of maps/reduces.</description>
+	</property>
+	
+</configuration>

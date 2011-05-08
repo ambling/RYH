@@ -1,0 +1,2400 @@
+Starting YafaRay XML loader...
+YafaRay 0.1.1
+Loading plugins ...
+Registered integrator type 'none'
+Registered background type 'textureback'
+Registered background type 'constant'
+Registered integrator type 'bidirectional'
+Registered integrator type 'DebugIntegrator'
+Registered material type 'blend_mat'
+Registered shader node type 'texture_mapper'
+Registered shader node type 'value'
+Registered shader node type 'mix'
+Registered shader node type 'layer'
+Registered shader node type 'vcolor'
+Registered light type 'spotlight'
+Registered volumetric handler type 'beer'
+Registered volumetric handler type 'sss'
+Registered material type 'glossy'
+Registered material type 'glass'
+Registered material type 'mirror'
+Registered material type 'null'
+Registered material type 'rough_glass'
+Registered integrator type 'photonmapping'
+Registered integrator type 'EmissionIntegrator'
+Registered integrator type 'SkyIntegrator'
+Registered material type 'coated_glossy'
+Registered background type 'darksky'
+Registered light type 'spherelight'
+Registered material type 'shinydiffusemat'
+Registered background type 'sunsky'
+Registered integrator type 'SingleScatterIntegrator'
+Registered light type 'directional'
+Registered volumeregion type 'SkyVolume'
+Registered volumeregion type 'NoiseVolume'
+Registered volumeregion type 'ExpDensityVolume'
+Registered texture type 'clouds'
+Registered texture type 'marble'
+Registered texture type 'wood'
+Registered texture type 'voronoi'
+Registered texture type 'musgrave'
+Registered texture type 'distorted_noise'
+Registered texture type 'rgb_cube'
+Registered texture type 'image'
+Registered material type 'light_mat'
+Registered material type 'mask_mat'
+Registered background type 'gradientback'
+Registered volumeregion type 'UniformVolume'
+Registered light type 'arealight'
+Registered light type 'meshlight'
+Registered light type 'bg_portal_light'
+Registered integrator type 'directlighting'
+Registered light type 'pointlight'
+Registered integrator type 'pathtracing'
+Registered light type 'sunlight'
+added Material 'defaultMat' (shinydiffusemat)!
+added Material 'trawa' (shinydiffusemat)!
+added Material '02 - Default' (shinydiffusemat)!
+added Material 'sciany' (shinydiffusemat)!
+added Material 'szyba' (glass)!
+added Light 'Lamp.001' (sunlight)!
+added Light 'Lamp' (pointlight)!
+added camera 'cam' (perspective)!
+smoothing angle:40 (thresh = 0.766044)
+vertices:125, vertex normals:117
+added Background 'world_background' (gradientback)!
+created pathIntegrator!
+added Integrator 'default'!
+added Integrator 'volintegr'!
+setting up scene...done!
+scene mode:0
+starting build of kd-tree (7428 prims, cr:0.8 eb:0.33)
+getting triangle bounds...done!
+starting recursive build...
+
+=== kd-tree stats (0.14s) ===
+used/allocated kd-tree nodes: 46255/65536 (70.5795%)
+primitives in tree: 7428
+interior nodes: 23127 / leaf nodes: 23128 (empty: 4061 = 17.5588%)
+leaf prims: 51344 (6.91222x prims in tree, leaf size:1)
+   => 2.69282 prims per non-empty leaf
+leaves due to depth limit/bad splits: 4740/9555
+clipped triangles: 190672 (0 bad clips, 2662 null clips)
+scene_t::update(): new scene bound is 
+	(-7.9614, -9.64396, 4.89434), (3.26874, 6.4295, 11.5472)
+rendering 3 passes, min 4 samples, 4 per additional pass (max 12 total)
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 0 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 0 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+overall rendertime: 0.075415s
+flushing imageFilm buffer
+Saving Targa file as "yafaray.tga": OK
+** imageFilter stats: unlocked adds: 35246 locked adds: 13906
+Starting YafaRay XML loader...
+YafaRay 0.1.1
+Loading plugins ...
+Registered integrator type 'none'
+Registered background type 'textureback'
+Registered background type 'constant'
+Registered integrator type 'bidirectional'
+Registered integrator type 'DebugIntegrator'
+Registered material type 'blend_mat'
+Registered shader node type 'texture_mapper'
+Registered shader node type 'value'
+Registered shader node type 'mix'
+Registered shader node type 'layer'
+Registered shader node type 'vcolor'
+Registered light type 'spotlight'
+Registered volumetric handler type 'beer'
+Registered volumetric handler type 'sss'
+Registered material type 'glossy'
+Registered material type 'glass'
+Registered material type 'mirror'
+Registered material type 'null'
+Registered material type 'rough_glass'
+Registered integrator type 'photonmapping'
+Registered integrator type 'EmissionIntegrator'
+Registered integrator type 'SkyIntegrator'
+Registered material type 'coated_glossy'
+Registered background type 'darksky'
+Registered light type 'spherelight'
+Registered material type 'shinydiffusemat'
+Registered background type 'sunsky'
+Registered integrator type 'SingleScatterIntegrator'
+Registered light type 'directional'
+Registered volumeregion type 'SkyVolume'
+Registered volumeregion type 'NoiseVolume'
+Registered volumeregion type 'ExpDensityVolume'
+Registered texture type 'clouds'
+Registered texture type 'marble'
+Registered texture type 'wood'
+Registered texture type 'voronoi'
+Registered texture type 'musgrave'
+Registered texture type 'distorted_noise'
+Registered texture type 'rgb_cube'
+Registered texture type 'image'
+Registered material type 'light_mat'
+Registered material type 'mask_mat'
+Registered background type 'gradientback'
+Registered volumeregion type 'UniformVolume'
+Registered light type 'arealight'
+Registered light type 'meshlight'
+Registered light type 'bg_portal_light'
+Registered integrator type 'directlighting'
+Registered light type 'pointlight'
+Registered integrator type 'pathtracing'
+Registered light type 'sunlight'
+added Material 'defaultMat' (shinydiffusemat)!
+added Material 'trawa' (shinydiffusemat)!
+added Material '02 - Default' (shinydiffusemat)!
+added Material 'sciany' (shinydiffusemat)!
+added Material 'szyba' (glass)!
+added Light 'Lamp.001' (sunlight)!
+added Light 'Lamp' (pointlight)!
+added camera 'cam' (perspective)!
+smoothing angle:40 (thresh = 0.766044)
+vertices:125, vertex normals:117
+added Background 'world_background' (gradientback)!
+created pathIntegrator!
+added Integrator 'default'!
+added Integrator 'volintegr'!
+setting up scene...done!
+scene mode:0
+starting build of kd-tree (7428 prims, cr:0.8 eb:0.33)
+getting triangle bounds...done!
+starting recursive build...
+
+=== kd-tree stats (0.14s) ===
+used/allocated kd-tree nodes: 46255/65536 (70.5795%)
+primitives in tree: 7428
+interior nodes: 23127 / leaf nodes: 23128 (empty: 4061 = 17.5588%)
+leaf prims: 51344 (6.91222x prims in tree, leaf size:1)
+   => 2.69282 prims per non-empty leaf
+leaves due to depth limit/bad splits: 4740/9555
+clipped triangles: 190672 (0 bad clips, 2662 null clips)
+scene_t::update(): new scene bound is 
+	(-7.9614, -9.64396, 4.89434), (3.26874, 6.4295, 11.5472)
+rendering 3 passes, min 4 samples, 4 per additional pass (max 12 total)
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 3136 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 3049 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+overall rendertime: 30.6529s
+flushing imageFilm buffer
+Saving Targa file as "yafaray.tga": OK
+** imageFilter stats: unlocked adds: 58381 locked adds: 22411
+Starting YafaRay XML loader...
+YafaRay 0.1.1
+Loading plugins ...
+Registered integrator type 'none'
+Registered background type 'textureback'
+Registered background type 'constant'
+Registered integrator type 'bidirectional'
+Registered integrator type 'DebugIntegrator'
+Registered material type 'blend_mat'
+Registered shader node type 'texture_mapper'
+Registered shader node type 'value'
+Registered shader node type 'mix'
+Registered shader node type 'layer'
+Registered shader node type 'vcolor'
+Registered light type 'spotlight'
+Registered volumetric handler type 'beer'
+Registered volumetric handler type 'sss'
+Registered material type 'glossy'
+Registered material type 'glass'
+Registered material type 'mirror'
+Registered material type 'null'
+Registered material type 'rough_glass'
+Registered integrator type 'photonmapping'
+Registered integrator type 'EmissionIntegrator'
+Registered integrator type 'SkyIntegrator'
+Registered material type 'coated_glossy'
+Registered background type 'darksky'
+Registered light type 'spherelight'
+Registered material type 'shinydiffusemat'
+Registered background type 'sunsky'
+Registered integrator type 'SingleScatterIntegrator'
+Registered light type 'directional'
+Registered volumeregion type 'SkyVolume'
+Registered volumeregion type 'NoiseVolume'
+Registered volumeregion type 'ExpDensityVolume'
+Registered texture type 'clouds'
+Registered texture type 'marble'
+Registered texture type 'wood'
+Registered texture type 'voronoi'
+Registered texture type 'musgrave'
+Registered texture type 'distorted_noise'
+Registered texture type 'rgb_cube'
+Registered texture type 'image'
+Registered material type 'light_mat'
+Registered material type 'mask_mat'
+Registered background type 'gradientback'
+Registered volumeregion type 'UniformVolume'
+Registered light type 'arealight'
+Registered light type 'meshlight'
+Registered light type 'bg_portal_light'
+Registered integrator type 'directlighting'
+Registered light type 'pointlight'
+Registered integrator type 'pathtracing'
+Registered light type 'sunlight'
+added Material 'defaultMat' (shinydiffusemat)!
+added Material 'trawa' (shinydiffusemat)!
+added Material '02 - Default' (shinydiffusemat)!
+added Material 'sciany' (shinydiffusemat)!
+added Material 'szyba' (glass)!
+added Light 'Lamp.001' (sunlight)!
+added Light 'Lamp' (pointlight)!
+added camera 'cam' (perspective)!
+smoothing angle:40 (thresh = 0.766044)
+vertices:125, vertex normals:117
+added Background 'world_background' (gradientback)!
+created pathIntegrator!
+added Integrator 'default'!
+added Integrator 'volintegr'!
+setting up scene...done!
+scene mode:0
+starting build of kd-tree (7428 prims, cr:0.8 eb:0.33)
+getting triangle bounds...done!
+starting recursive build...
+
+=== kd-tree stats (0.14s) ===
+used/allocated kd-tree nodes: 46255/65536 (70.5795%)
+primitives in tree: 7428
+interior nodes: 23127 / leaf nodes: 23128 (empty: 4061 = 17.5588%)
+leaf prims: 51344 (6.91222x prims in tree, leaf size:1)
+   => 2.69282 prims per non-empty leaf
+leaves due to depth limit/bad splits: 4740/9555
+clipped triangles: 190672 (0 bad clips, 2662 null clips)
+scene_t::update(): new scene bound is 
+	(-7.9614, -9.64396, 4.89434), (3.26874, 6.4295, 11.5472)
+rendering 3 passes, min 4 samples, 4 per additional pass (max 12 total)
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 2778 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 2653 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+overall rendertime: 31.3054s
+flushing imageFilm buffer
+Saving Targa file as "yafaray.tga": OK
+** imageFilter stats: unlocked adds: 57168 locked adds: 20836
+Starting YafaRay XML loader...
+YafaRay 0.1.1
+Loading plugins ...
+Registered integrator type 'none'
+Registered background type 'textureback'
+Registered background type 'constant'
+Registered integrator type 'bidirectional'
+Registered integrator type 'DebugIntegrator'
+Registered material type 'blend_mat'
+Registered shader node type 'texture_mapper'
+Registered shader node type 'value'
+Registered shader node type 'mix'
+Registered shader node type 'layer'
+Registered shader node type 'vcolor'
+Registered light type 'spotlight'
+Registered volumetric handler type 'beer'
+Registered volumetric handler type 'sss'
+Registered material type 'glossy'
+Registered material type 'glass'
+Registered material type 'mirror'
+Registered material type 'null'
+Registered material type 'rough_glass'
+Registered integrator type 'photonmapping'
+Registered integrator type 'EmissionIntegrator'
+Registered integrator type 'SkyIntegrator'
+Registered material type 'coated_glossy'
+Registered background type 'darksky'
+Registered light type 'spherelight'
+Registered material type 'shinydiffusemat'
+Registered background type 'sunsky'
+Registered integrator type 'SingleScatterIntegrator'
+Registered light type 'directional'
+Registered volumeregion type 'SkyVolume'
+Registered volumeregion type 'NoiseVolume'
+Registered volumeregion type 'ExpDensityVolume'
+Registered texture type 'clouds'
+Registered texture type 'marble'
+Registered texture type 'wood'
+Registered texture type 'voronoi'
+Registered texture type 'musgrave'
+Registered texture type 'distorted_noise'
+Registered texture type 'rgb_cube'
+Registered texture type 'image'
+Registered material type 'light_mat'
+Registered material type 'mask_mat'
+Registered background type 'gradientback'
+Registered volumeregion type 'UniformVolume'
+Registered light type 'arealight'
+Registered light type 'meshlight'
+Registered light type 'bg_portal_light'
+Registered integrator type 'directlighting'
+Registered light type 'pointlight'
+Registered integrator type 'pathtracing'
+Registered light type 'sunlight'
+added Material 'defaultMat' (shinydiffusemat)!
+added Material 'trawa' (shinydiffusemat)!
+added Material '02 - Default' (shinydiffusemat)!
+added Material 'sciany' (shinydiffusemat)!
+added Material 'szyba' (glass)!
+added Light 'Lamp.001' (sunlight)!
+added Light 'Lamp' (pointlight)!
+added camera 'cam' (perspective)!
+smoothing angle:40 (thresh = 0.766044)
+vertices:125, vertex normals:117
+added Background 'world_background' (gradientback)!
+created pathIntegrator!
+added Integrator 'default'!
+added Integrator 'volintegr'!
+setting up scene...done!
+scene mode:0
+starting build of kd-tree (7428 prims, cr:0.8 eb:0.33)
+getting triangle bounds...done!
+starting recursive build...
+
+=== kd-tree stats (0.13s) ===
+used/allocated kd-tree nodes: 46255/65536 (70.5795%)
+primitives in tree: 7428
+interior nodes: 23127 / leaf nodes: 23128 (empty: 4061 = 17.5588%)
+leaf prims: 51344 (6.91222x prims in tree, leaf size:1)
+   => 2.69282 prims per non-empty leaf
+leaves due to depth limit/bad splits: 4740/9555
+clipped triangles: 190672 (0 bad clips, 2662 null clips)
+scene_t::update(): new scene bound is 
+	(-7.9614, -9.64396, 4.89434), (3.26874, 6.4295, 11.5472)
+rendering 3 passes, min 4 samples, 4 per additional pass (max 12 total)
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 1925 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 1734 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+overall rendertime: 14.1569s
+flushing imageFilm buffer
+Saving Targa file as "yafaray.tga": OK
+** imageFilter stats: unlocked adds: 50582 locked adds: 20002
+Starting YafaRay XML loader...
+YafaRay 0.1.1
+Loading plugins ...
+Registered integrator type 'none'
+Registered background type 'textureback'
+Registered background type 'constant'
+Registered integrator type 'bidirectional'
+Registered integrator type 'DebugIntegrator'
+Registered material type 'blend_mat'
+Registered shader node type 'texture_mapper'
+Registered shader node type 'value'
+Registered shader node type 'mix'
+Registered shader node type 'layer'
+Registered shader node type 'vcolor'
+Registered light type 'spotlight'
+Registered volumetric handler type 'beer'
+Registered volumetric handler type 'sss'
+Registered material type 'glossy'
+Registered material type 'glass'
+Registered material type 'mirror'
+Registered material type 'null'
+Registered material type 'rough_glass'
+Registered integrator type 'photonmapping'
+Registered integrator type 'EmissionIntegrator'
+Registered integrator type 'SkyIntegrator'
+Registered material type 'coated_glossy'
+Registered background type 'darksky'
+Registered light type 'spherelight'
+Registered material type 'shinydiffusemat'
+Registered background type 'sunsky'
+Registered integrator type 'SingleScatterIntegrator'
+Registered light type 'directional'
+Registered volumeregion type 'SkyVolume'
+Registered volumeregion type 'NoiseVolume'
+Registered volumeregion type 'ExpDensityVolume'
+Registered texture type 'clouds'
+Registered texture type 'marble'
+Registered texture type 'wood'
+Registered texture type 'voronoi'
+Registered texture type 'musgrave'
+Registered texture type 'distorted_noise'
+Registered texture type 'rgb_cube'
+Registered texture type 'image'
+Registered material type 'light_mat'
+Registered material type 'mask_mat'
+Registered background type 'gradientback'
+Registered volumeregion type 'UniformVolume'
+Registered light type 'arealight'
+Registered light type 'meshlight'
+Registered light type 'bg_portal_light'
+Registered integrator type 'directlighting'
+Registered light type 'pointlight'
+Registered integrator type 'pathtracing'
+Registered light type 'sunlight'
+added Material 'defaultMat' (shinydiffusemat)!
+added Material 'trawa' (shinydiffusemat)!
+added Material '02 - Default' (shinydiffusemat)!
+added Material 'sciany' (shinydiffusemat)!
+added Material 'szyba' (glass)!
+added Light 'Lamp.001' (sunlight)!
+added Light 'Lamp' (pointlight)!
+added camera 'cam' (perspective)!
+smoothing angle:40 (thresh = 0.766044)
+vertices:125, vertex normals:117
+added Background 'world_background' (gradientback)!
+created pathIntegrator!
+added Integrator 'default'!
+added Integrator 'volintegr'!
+setting up scene...done!
+scene mode:0
+starting build of kd-tree (7428 prims, cr:0.8 eb:0.33)
+getting triangle bounds...done!
+starting recursive build...
+
+=== kd-tree stats (0.14s) ===
+used/allocated kd-tree nodes: 46255/65536 (70.5795%)
+primitives in tree: 7428
+interior nodes: 23127 / leaf nodes: 23128 (empty: 4061 = 17.5588%)
+leaf prims: 51344 (6.91222x prims in tree, leaf size:1)
+   => 2.69282 prims per non-empty leaf
+leaves due to depth limit/bad splits: 4740/9555
+clipped triangles: 190672 (0 bad clips, 2662 null clips)
+scene_t::update(): new scene bound is 
+	(-7.9614, -9.64396, 4.89434), (3.26874, 6.4295, 11.5472)
+rendering 3 passes, min 4 samples, 4 per additional pass (max 12 total)
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 934 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 855 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+overall rendertime: 12.6923s
+flushing imageFilm buffer
+Saving Targa file as "yafaray.tga": OK
+** imageFilter stats: unlocked adds: 41857 locked adds: 17527
+Starting YafaRay XML loader...
+YafaRay 0.1.1
+Loading plugins ...
+Registered integrator type 'none'
+Registered background type 'textureback'
+Registered background type 'constant'
+Registered integrator type 'bidirectional'
+Registered integrator type 'DebugIntegrator'
+Registered material type 'blend_mat'
+Registered shader node type 'texture_mapper'
+Registered shader node type 'value'
+Registered shader node type 'mix'
+Registered shader node type 'layer'
+Registered shader node type 'vcolor'
+Registered light type 'spotlight'
+Registered volumetric handler type 'beer'
+Registered volumetric handler type 'sss'
+Registered material type 'glossy'
+Registered material type 'glass'
+Registered material type 'mirror'
+Registered material type 'null'
+Registered material type 'rough_glass'
+Registered integrator type 'photonmapping'
+Registered integrator type 'EmissionIntegrator'
+Registered integrator type 'SkyIntegrator'
+Registered material type 'coated_glossy'
+Registered background type 'darksky'
+Registered light type 'spherelight'
+Registered material type 'shinydiffusemat'
+Registered background type 'sunsky'
+Registered integrator type 'SingleScatterIntegrator'
+Registered light type 'directional'
+Registered volumeregion type 'SkyVolume'
+Registered volumeregion type 'NoiseVolume'
+Registered volumeregion type 'ExpDensityVolume'
+Registered texture type 'clouds'
+Registered texture type 'marble'
+Registered texture type 'wood'
+Registered texture type 'voronoi'
+Registered texture type 'musgrave'
+Registered texture type 'distorted_noise'
+Registered texture type 'rgb_cube'
+Registered texture type 'image'
+Registered material type 'light_mat'
+Registered material type 'mask_mat'
+Registered background type 'gradientback'
+Registered volumeregion type 'UniformVolume'
+Registered light type 'arealight'
+Registered light type 'meshlight'
+Registered light type 'bg_portal_light'
+Registered integrator type 'directlighting'
+Registered light type 'pointlight'
+Registered integrator type 'pathtracing'
+Registered light type 'sunlight'
+added Material 'defaultMat' (shinydiffusemat)!
+added Material 'trawa' (shinydiffusemat)!
+added Material '02 - Default' (shinydiffusemat)!
+added Material 'sciany' (shinydiffusemat)!
+added Material 'szyba' (glass)!
+added Light 'Lamp.001' (sunlight)!
+added Light 'Lamp' (pointlight)!
+added camera 'cam' (perspective)!
+smoothing angle:40 (thresh = 0.766044)
+vertices:125, vertex normals:117
+added Background 'world_background' (gradientback)!
+created pathIntegrator!
+added Integrator 'default'!
+added Integrator 'volintegr'!
+setting up scene...done!
+scene mode:0
+starting build of kd-tree (7428 prims, cr:0.8 eb:0.33)
+getting triangle bounds...done!
+starting recursive build...
+
+=== kd-tree stats (0.13s) ===
+used/allocated kd-tree nodes: 46255/65536 (70.5795%)
+primitives in tree: 7428
+interior nodes: 23127 / leaf nodes: 23128 (empty: 4061 = 17.5588%)
+leaf prims: 51344 (6.91222x prims in tree, leaf size:1)
+   => 2.69282 prims per non-empty leaf
+leaves due to depth limit/bad splits: 4740/9555
+clipped triangles: 190672 (0 bad clips, 2662 null clips)
+scene_t::update(): new scene bound is 
+	(-7.9614, -9.64396, 4.89434), (3.26874, 6.4295, 11.5472)
+rendering 3 passes, min 4 samples, 4 per additional pass (max 12 total)
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 1183 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 1174 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+overall rendertime: 3.47581s
+flushing imageFilm buffer
+Saving Targa file as "yafaray.tga": OK
+** imageFilter stats: unlocked adds: 44701 locked adds: 17423
+Starting YafaRay XML loader...
+YafaRay 0.1.1
+Loading plugins ...
+Registered integrator type 'none'
+Registered background type 'textureback'
+Registered background type 'constant'
+Registered integrator type 'bidirectional'
+Registered integrator type 'DebugIntegrator'
+Registered material type 'blend_mat'
+Registered shader node type 'texture_mapper'
+Registered shader node type 'value'
+Registered shader node type 'mix'
+Registered shader node type 'layer'
+Registered shader node type 'vcolor'
+Registered light type 'spotlight'
+Registered volumetric handler type 'beer'
+Registered volumetric handler type 'sss'
+Registered material type 'glossy'
+Registered material type 'glass'
+Registered material type 'mirror'
+Registered material type 'null'
+Registered material type 'rough_glass'
+Registered integrator type 'photonmapping'
+Registered integrator type 'EmissionIntegrator'
+Registered integrator type 'SkyIntegrator'
+Registered material type 'coated_glossy'
+Registered background type 'darksky'
+Registered light type 'spherelight'
+Registered material type 'shinydiffusemat'
+Registered background type 'sunsky'
+Registered integrator type 'SingleScatterIntegrator'
+Registered light type 'directional'
+Registered volumeregion type 'SkyVolume'
+Registered volumeregion type 'NoiseVolume'
+Registered volumeregion type 'ExpDensityVolume'
+Registered texture type 'clouds'
+Registered texture type 'marble'
+Registered texture type 'wood'
+Registered texture type 'voronoi'
+Registered texture type 'musgrave'
+Registered texture type 'distorted_noise'
+Registered texture type 'rgb_cube'
+Registered texture type 'image'
+Registered material type 'light_mat'
+Registered material type 'mask_mat'
+Registered background type 'gradientback'
+Registered volumeregion type 'UniformVolume'
+Registered light type 'arealight'
+Registered light type 'meshlight'
+Registered light type 'bg_portal_light'
+Registered integrator type 'directlighting'
+Registered light type 'pointlight'
+Registered integrator type 'pathtracing'
+Registered light type 'sunlight'
+added Material 'defaultMat' (shinydiffusemat)!
+added Material 'trawa' (shinydiffusemat)!
+added Material '02 - Default' (shinydiffusemat)!
+added Material 'sciany' (shinydiffusemat)!
+added Material 'szyba' (glass)!
+added Light 'Lamp.001' (sunlight)!
+added Light 'Lamp' (pointlight)!
+added camera 'cam' (perspective)!
+smoothing angle:40 (thresh = 0.766044)
+vertices:125, vertex normals:117
+added Background 'world_background' (gradientback)!
+created pathIntegrator!
+added Integrator 'default'!
+added Integrator 'volintegr'!
+setting up scene...done!
+scene mode:0
+starting build of kd-tree (7428 prims, cr:0.8 eb:0.33)
+getting triangle bounds...done!
+starting recursive build...
+
+=== kd-tree stats (0.14s) ===
+used/allocated kd-tree nodes: 46255/65536 (70.5795%)
+primitives in tree: 7428
+interior nodes: 23127 / leaf nodes: 23128 (empty: 4061 = 17.5588%)
+leaf prims: 51344 (6.91222x prims in tree, leaf size:1)
+   => 2.69282 prims per non-empty leaf
+leaves due to depth limit/bad splits: 4740/9555
+clipped triangles: 190672 (0 bad clips, 2662 null clips)
+scene_t::update(): new scene bound is 
+	(-7.9614, -9.64396, 4.89434), (3.26874, 6.4295, 11.5472)
+rendering 3 passes, min 4 samples, 4 per additional pass (max 12 total)
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 3584 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 3533 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+overall rendertime: 31.7606s
+flushing imageFilm buffer
+Saving Targa file as "yafaray.tga": OK
+** imageFilter stats: unlocked adds: 62245 locked adds: 23935
+Starting YafaRay XML loader...
+YafaRay 0.1.1
+Loading plugins ...
+Registered integrator type 'none'
+Registered background type 'textureback'
+Registered background type 'constant'
+Registered integrator type 'bidirectional'
+Registered integrator type 'DebugIntegrator'
+Registered material type 'blend_mat'
+Registered shader node type 'texture_mapper'
+Registered shader node type 'value'
+Registered shader node type 'mix'
+Registered shader node type 'layer'
+Registered shader node type 'vcolor'
+Registered light type 'spotlight'
+Registered volumetric handler type 'beer'
+Registered volumetric handler type 'sss'
+Registered material type 'glossy'
+Registered material type 'glass'
+Registered material type 'mirror'
+Registered material type 'null'
+Registered material type 'rough_glass'
+Registered integrator type 'photonmapping'
+Registered integrator type 'EmissionIntegrator'
+Registered integrator type 'SkyIntegrator'
+Registered material type 'coated_glossy'
+Registered background type 'darksky'
+Registered light type 'spherelight'
+Registered material type 'shinydiffusemat'
+Registered background type 'sunsky'
+Registered integrator type 'SingleScatterIntegrator'
+Registered light type 'directional'
+Registered volumeregion type 'SkyVolume'
+Registered volumeregion type 'NoiseVolume'
+Registered volumeregion type 'ExpDensityVolume'
+Registered texture type 'clouds'
+Registered texture type 'marble'
+Registered texture type 'wood'
+Registered texture type 'voronoi'
+Registered texture type 'musgrave'
+Registered texture type 'distorted_noise'
+Registered texture type 'rgb_cube'
+Registered texture type 'image'
+Registered material type 'light_mat'
+Registered material type 'mask_mat'
+Registered background type 'gradientback'
+Registered volumeregion type 'UniformVolume'
+Registered light type 'arealight'
+Registered light type 'meshlight'
+Registered light type 'bg_portal_light'
+Registered integrator type 'directlighting'
+Registered light type 'pointlight'
+Registered integrator type 'pathtracing'
+Registered light type 'sunlight'
+added Material 'defaultMat' (shinydiffusemat)!
+added Material 'trawa' (shinydiffusemat)!
+added Material '02 - Default' (shinydiffusemat)!
+added Material 'sciany' (shinydiffusemat)!
+added Material 'szyba' (glass)!
+added Light 'Lamp.001' (sunlight)!
+added Light 'Lamp' (pointlight)!
+added camera 'cam' (perspective)!
+smoothing angle:40 (thresh = 0.766044)
+vertices:125, vertex normals:117
+added Background 'world_background' (gradientback)!
+created pathIntegrator!
+added Integrator 'default'!
+added Integrator 'volintegr'!
+setting up scene...done!
+scene mode:0
+starting build of kd-tree (7428 prims, cr:0.8 eb:0.33)
+getting triangle bounds...done!
+starting recursive build...
+
+=== kd-tree stats (0.13s) ===
+used/allocated kd-tree nodes: 46255/65536 (70.5795%)
+primitives in tree: 7428
+interior nodes: 23127 / leaf nodes: 23128 (empty: 4061 = 17.5588%)
+leaf prims: 51344 (6.91222x prims in tree, leaf size:1)
+   => 2.69282 prims per non-empty leaf
+leaves due to depth limit/bad splits: 4740/9555
+clipped triangles: 190672 (0 bad clips, 2662 null clips)
+scene_t::update(): new scene bound is 
+	(-7.9614, -9.64396, 4.89434), (3.26874, 6.4295, 11.5472)
+rendering 3 passes, min 4 samples, 4 per additional pass (max 12 total)
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 3358 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 3201 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+overall rendertime: 43.3922s
+flushing imageFilm buffer
+Saving Targa file as "yafaray.tga": OK
+** imageFilter stats: unlocked adds: 60937 locked adds: 23499
+Starting YafaRay XML loader...
+YafaRay 0.1.1
+Loading plugins ...
+Registered integrator type 'none'
+Registered background type 'textureback'
+Registered background type 'constant'
+Registered integrator type 'bidirectional'
+Registered integrator type 'DebugIntegrator'
+Registered material type 'blend_mat'
+Registered shader node type 'texture_mapper'
+Registered shader node type 'value'
+Registered shader node type 'mix'
+Registered shader node type 'layer'
+Registered shader node type 'vcolor'
+Registered light type 'spotlight'
+Registered volumetric handler type 'beer'
+Registered volumetric handler type 'sss'
+Registered material type 'glossy'
+Registered material type 'glass'
+Registered material type 'mirror'
+Registered material type 'null'
+Registered material type 'rough_glass'
+Registered integrator type 'photonmapping'
+Registered integrator type 'EmissionIntegrator'
+Registered integrator type 'SkyIntegrator'
+Registered material type 'coated_glossy'
+Registered background type 'darksky'
+Registered light type 'spherelight'
+Registered material type 'shinydiffusemat'
+Registered background type 'sunsky'
+Registered integrator type 'SingleScatterIntegrator'
+Registered light type 'directional'
+Registered volumeregion type 'SkyVolume'
+Registered volumeregion type 'NoiseVolume'
+Registered volumeregion type 'ExpDensityVolume'
+Registered texture type 'clouds'
+Registered texture type 'marble'
+Registered texture type 'wood'
+Registered texture type 'voronoi'
+Registered texture type 'musgrave'
+Registered texture type 'distorted_noise'
+Registered texture type 'rgb_cube'
+Registered texture type 'image'
+Registered material type 'light_mat'
+Registered material type 'mask_mat'
+Registered background type 'gradientback'
+Registered volumeregion type 'UniformVolume'
+Registered light type 'arealight'
+Registered light type 'meshlight'
+Registered light type 'bg_portal_light'
+Registered integrator type 'directlighting'
+Registered light type 'pointlight'
+Registered integrator type 'pathtracing'
+Registered light type 'sunlight'
+added Material 'defaultMat' (shinydiffusemat)!
+added Material 'trawa' (shinydiffusemat)!
+added Material '02 - Default' (shinydiffusemat)!
+added Material 'sciany' (shinydiffusemat)!
+added Material 'szyba' (glass)!
+added Light 'Lamp.001' (sunlight)!
+added Light 'Lamp' (pointlight)!
+added camera 'cam' (perspective)!
+smoothing angle:40 (thresh = 0.766044)
+vertices:125, vertex normals:117
+added Background 'world_background' (gradientback)!
+created pathIntegrator!
+added Integrator 'default'!
+added Integrator 'volintegr'!
+setting up scene...done!
+scene mode:0
+starting build of kd-tree (7428 prims, cr:0.8 eb:0.33)
+getting triangle bounds...done!
+starting recursive build...
+
+=== kd-tree stats (0.13s) ===
+used/allocated kd-tree nodes: 46255/65536 (70.5795%)
+primitives in tree: 7428
+interior nodes: 23127 / leaf nodes: 23128 (empty: 4061 = 17.5588%)
+leaf prims: 51344 (6.91222x prims in tree, leaf size:1)
+   => 2.69282 prims per non-empty leaf
+leaves due to depth limit/bad splits: 4740/9555
+clipped triangles: 190672 (0 bad clips, 2662 null clips)
+scene_t::update(): new scene bound is 
+	(-7.9614, -9.64396, 4.89434), (3.26874, 6.4295, 11.5472)
+rendering 3 passes, min 4 samples, 4 per additional pass (max 12 total)
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 1545 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 1309 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+overall rendertime: 20.3428s
+flushing imageFilm buffer
+Saving Targa file as "yafaray.tga": OK
+** imageFilter stats: unlocked adds: 46991 locked adds: 18101
+Starting YafaRay XML loader...
+YafaRay 0.1.1
+Loading plugins ...
+Registered integrator type 'none'
+Registered background type 'textureback'
+Registered background type 'constant'
+Registered integrator type 'bidirectional'
+Registered integrator type 'DebugIntegrator'
+Registered material type 'blend_mat'
+Registered shader node type 'texture_mapper'
+Registered shader node type 'value'
+Registered shader node type 'mix'
+Registered shader node type 'layer'
+Registered shader node type 'vcolor'
+Registered light type 'spotlight'
+Registered volumetric handler type 'beer'
+Registered volumetric handler type 'sss'
+Registered material type 'glossy'
+Registered material type 'glass'
+Registered material type 'mirror'
+Registered material type 'null'
+Registered material type 'rough_glass'
+Registered integrator type 'photonmapping'
+Registered integrator type 'EmissionIntegrator'
+Registered integrator type 'SkyIntegrator'
+Registered material type 'coated_glossy'
+Registered background type 'darksky'
+Registered light type 'spherelight'
+Registered material type 'shinydiffusemat'
+Registered background type 'sunsky'
+Registered integrator type 'SingleScatterIntegrator'
+Registered light type 'directional'
+Registered volumeregion type 'SkyVolume'
+Registered volumeregion type 'NoiseVolume'
+Registered volumeregion type 'ExpDensityVolume'
+Registered texture type 'clouds'
+Registered texture type 'marble'
+Registered texture type 'wood'
+Registered texture type 'voronoi'
+Registered texture type 'musgrave'
+Registered texture type 'distorted_noise'
+Registered texture type 'rgb_cube'
+Registered texture type 'image'
+Registered material type 'light_mat'
+Registered material type 'mask_mat'
+Registered background type 'gradientback'
+Registered volumeregion type 'UniformVolume'
+Registered light type 'arealight'
+Registered light type 'meshlight'
+Registered light type 'bg_portal_light'
+Registered integrator type 'directlighting'
+Registered light type 'pointlight'
+Registered integrator type 'pathtracing'
+Registered light type 'sunlight'
+added Material 'defaultMat' (shinydiffusemat)!
+added Material 'trawa' (shinydiffusemat)!
+added Material '02 - Default' (shinydiffusemat)!
+added Material 'sciany' (shinydiffusemat)!
+added Material 'szyba' (glass)!
+added Light 'Lamp.001' (sunlight)!
+added Light 'Lamp' (pointlight)!
+added camera 'cam' (perspective)!
+smoothing angle:40 (thresh = 0.766044)
+vertices:125, vertex normals:117
+added Background 'world_background' (gradientback)!
+created pathIntegrator!
+added Integrator 'default'!
+added Integrator 'volintegr'!
+setting up scene...done!
+scene mode:0
+starting build of kd-tree (7428 prims, cr:0.8 eb:0.33)
+getting triangle bounds...done!
+starting recursive build...
+
+=== kd-tree stats (0.14s) ===
+used/allocated kd-tree nodes: 46255/65536 (70.5795%)
+primitives in tree: 7428
+interior nodes: 23127 / leaf nodes: 23128 (empty: 4061 = 17.5588%)
+leaf prims: 51344 (6.91222x prims in tree, leaf size:1)
+   => 2.69282 prims per non-empty leaf
+leaves due to depth limit/bad splits: 4740/9555
+clipped triangles: 190672 (0 bad clips, 2662 null clips)
+scene_t::update(): new scene bound is 
+	(-7.9614, -9.64396, 4.89434), (3.26874, 6.4295, 11.5472)
+rendering 3 passes, min 4 samples, 4 per additional pass (max 12 total)
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 963 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 896 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+overall rendertime: 7.32198s
+flushing imageFilm buffer
+Saving Targa file as "yafaray.tga": OK
+** imageFilter stats: unlocked adds: 43116 locked adds: 16532
+Starting YafaRay XML loader...
+YafaRay 0.1.1
+Loading plugins ...
+Registered integrator type 'none'
+Registered background type 'textureback'
+Registered background type 'constant'
+Registered integrator type 'bidirectional'
+Registered integrator type 'DebugIntegrator'
+Registered material type 'blend_mat'
+Registered shader node type 'texture_mapper'
+Registered shader node type 'value'
+Registered shader node type 'mix'
+Registered shader node type 'layer'
+Registered shader node type 'vcolor'
+Registered light type 'spotlight'
+Registered volumetric handler type 'beer'
+Registered volumetric handler type 'sss'
+Registered material type 'glossy'
+Registered material type 'glass'
+Registered material type 'mirror'
+Registered material type 'null'
+Registered material type 'rough_glass'
+Registered integrator type 'photonmapping'
+Registered integrator type 'EmissionIntegrator'
+Registered integrator type 'SkyIntegrator'
+Registered material type 'coated_glossy'
+Registered background type 'darksky'
+Registered light type 'spherelight'
+Registered material type 'shinydiffusemat'
+Registered background type 'sunsky'
+Registered integrator type 'SingleScatterIntegrator'
+Registered light type 'directional'
+Registered volumeregion type 'SkyVolume'
+Registered volumeregion type 'NoiseVolume'
+Registered volumeregion type 'ExpDensityVolume'
+Registered texture type 'clouds'
+Registered texture type 'marble'
+Registered texture type 'wood'
+Registered texture type 'voronoi'
+Registered texture type 'musgrave'
+Registered texture type 'distorted_noise'
+Registered texture type 'rgb_cube'
+Registered texture type 'image'
+Registered material type 'light_mat'
+Registered material type 'mask_mat'
+Registered background type 'gradientback'
+Registered volumeregion type 'UniformVolume'
+Registered light type 'arealight'
+Registered light type 'meshlight'
+Registered light type 'bg_portal_light'
+Registered integrator type 'directlighting'
+Registered light type 'pointlight'
+Registered integrator type 'pathtracing'
+Registered light type 'sunlight'
+added Material 'defaultMat' (shinydiffusemat)!
+added Material 'trawa' (shinydiffusemat)!
+added Material '02 - Default' (shinydiffusemat)!
+added Material 'sciany' (shinydiffusemat)!
+added Material 'szyba' (glass)!
+added Light 'Lamp.001' (sunlight)!
+added Light 'Lamp' (pointlight)!
+added camera 'cam' (perspective)!
+smoothing angle:40 (thresh = 0.766044)
+vertices:125, vertex normals:117
+added Background 'world_background' (gradientback)!
+created pathIntegrator!
+added Integrator 'default'!
+added Integrator 'volintegr'!
+setting up scene...done!
+scene mode:0
+starting build of kd-tree (7428 prims, cr:0.8 eb:0.33)
+getting triangle bounds...done!
+starting recursive build...
+
+=== kd-tree stats (0.13s) ===
+used/allocated kd-tree nodes: 46255/65536 (70.5795%)
+primitives in tree: 7428
+interior nodes: 23127 / leaf nodes: 23128 (empty: 4061 = 17.5588%)
+leaf prims: 51344 (6.91222x prims in tree, leaf size:1)
+   => 2.69282 prims per non-empty leaf
+leaves due to depth limit/bad splits: 4740/9555
+clipped triangles: 190672 (0 bad clips, 2662 null clips)
+scene_t::update(): new scene bound is 
+	(-7.9614, -9.64396, 4.89434), (3.26874, 6.4295, 11.5472)
+rendering 3 passes, min 4 samples, 4 per additional pass (max 12 total)
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 245 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 250 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+overall rendertime: 0.551611s
+flushing imageFilm buffer
+Saving Targa file as "yafaray.tga": OK
+** imageFilter stats: unlocked adds: 36851 locked adds: 15017
+Starting YafaRay XML loader...
+YafaRay 0.1.1
+Loading plugins ...
+Registered integrator type 'none'
+Registered background type 'textureback'
+Registered background type 'constant'
+Registered integrator type 'bidirectional'
+Registered integrator type 'DebugIntegrator'
+Registered material type 'blend_mat'
+Registered shader node type 'texture_mapper'
+Registered shader node type 'value'
+Registered shader node type 'mix'
+Registered shader node type 'layer'
+Registered shader node type 'vcolor'
+Registered light type 'spotlight'
+Registered volumetric handler type 'beer'
+Registered volumetric handler type 'sss'
+Registered material type 'glossy'
+Registered material type 'glass'
+Registered material type 'mirror'
+Registered material type 'null'
+Registered material type 'rough_glass'
+Registered integrator type 'photonmapping'
+Registered integrator type 'EmissionIntegrator'
+Registered integrator type 'SkyIntegrator'
+Registered material type 'coated_glossy'
+Registered background type 'darksky'
+Registered light type 'spherelight'
+Registered material type 'shinydiffusemat'
+Registered background type 'sunsky'
+Registered integrator type 'SingleScatterIntegrator'
+Registered light type 'directional'
+Registered volumeregion type 'SkyVolume'
+Registered volumeregion type 'NoiseVolume'
+Registered volumeregion type 'ExpDensityVolume'
+Registered texture type 'clouds'
+Registered texture type 'marble'
+Registered texture type 'wood'
+Registered texture type 'voronoi'
+Registered texture type 'musgrave'
+Registered texture type 'distorted_noise'
+Registered texture type 'rgb_cube'
+Registered texture type 'image'
+Registered material type 'light_mat'
+Registered material type 'mask_mat'
+Registered background type 'gradientback'
+Registered volumeregion type 'UniformVolume'
+Registered light type 'arealight'
+Registered light type 'meshlight'
+Registered light type 'bg_portal_light'
+Registered integrator type 'directlighting'
+Registered light type 'pointlight'
+Registered integrator type 'pathtracing'
+Registered light type 'sunlight'
+added Material 'defaultMat' (shinydiffusemat)!
+added Material 'trawa' (shinydiffusemat)!
+added Material '02 - Default' (shinydiffusemat)!
+added Material 'sciany' (shinydiffusemat)!
+added Material 'szyba' (glass)!
+added Light 'Lamp.001' (sunlight)!
+added Light 'Lamp' (pointlight)!
+added camera 'cam' (perspective)!
+smoothing angle:40 (thresh = 0.766044)
+vertices:125, vertex normals:117
+added Background 'world_background' (gradientback)!
+created pathIntegrator!
+added Integrator 'default'!
+added Integrator 'volintegr'!
+setting up scene...done!
+scene mode:0
+starting build of kd-tree (7428 prims, cr:0.8 eb:0.33)
+getting triangle bounds...done!
+starting recursive build...
+
+=== kd-tree stats (0.14s) ===
+used/allocated kd-tree nodes: 46255/65536 (70.5795%)
+primitives in tree: 7428
+interior nodes: 23127 / leaf nodes: 23128 (empty: 4061 = 17.5588%)
+leaf prims: 51344 (6.91222x prims in tree, leaf size:1)
+   => 2.69282 prims per non-empty leaf
+leaves due to depth limit/bad splits: 4740/9555
+clipped triangles: 190672 (0 bad clips, 2662 null clips)
+scene_t::update(): new scene bound is 
+	(-7.9614, -9.64396, 4.89434), (3.26874, 6.4295, 11.5472)
+rendering 3 passes, min 4 samples, 4 per additional pass (max 12 total)
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 3464 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 3337 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+overall rendertime: 19.3986s
+flushing imageFilm buffer
+Saving Targa file as "yafaray.tga": OK
+** imageFilter stats: unlocked adds: 61691 locked adds: 24289
+Starting YafaRay XML loader...
+YafaRay 0.1.1
+Loading plugins ...
+Registered integrator type 'none'
+Registered background type 'textureback'
+Registered background type 'constant'
+Registered integrator type 'bidirectional'
+Registered integrator type 'DebugIntegrator'
+Registered material type 'blend_mat'
+Registered shader node type 'texture_mapper'
+Registered shader node type 'value'
+Registered shader node type 'mix'
+Registered shader node type 'layer'
+Registered shader node type 'vcolor'
+Registered light type 'spotlight'
+Registered volumetric handler type 'beer'
+Registered volumetric handler type 'sss'
+Registered material type 'glossy'
+Registered material type 'glass'
+Registered material type 'mirror'
+Registered material type 'null'
+Registered material type 'rough_glass'
+Registered integrator type 'photonmapping'
+Registered integrator type 'EmissionIntegrator'
+Registered integrator type 'SkyIntegrator'
+Registered material type 'coated_glossy'
+Registered background type 'darksky'
+Registered light type 'spherelight'
+Registered material type 'shinydiffusemat'
+Registered background type 'sunsky'
+Registered integrator type 'SingleScatterIntegrator'
+Registered light type 'directional'
+Registered volumeregion type 'SkyVolume'
+Registered volumeregion type 'NoiseVolume'
+Registered volumeregion type 'ExpDensityVolume'
+Registered texture type 'clouds'
+Registered texture type 'marble'
+Registered texture type 'wood'
+Registered texture type 'voronoi'
+Registered texture type 'musgrave'
+Registered texture type 'distorted_noise'
+Registered texture type 'rgb_cube'
+Registered texture type 'image'
+Registered material type 'light_mat'
+Registered material type 'mask_mat'
+Registered background type 'gradientback'
+Registered volumeregion type 'UniformVolume'
+Registered light type 'arealight'
+Registered light type 'meshlight'
+Registered light type 'bg_portal_light'
+Registered integrator type 'directlighting'
+Registered light type 'pointlight'
+Registered integrator type 'pathtracing'
+Registered light type 'sunlight'
+added Material 'defaultMat' (shinydiffusemat)!
+added Material 'trawa' (shinydiffusemat)!
+added Material '02 - Default' (shinydiffusemat)!
+added Material 'sciany' (shinydiffusemat)!
+added Material 'szyba' (glass)!
+added Light 'Lamp.001' (sunlight)!
+added Light 'Lamp' (pointlight)!
+added camera 'cam' (perspective)!
+smoothing angle:40 (thresh = 0.766044)
+vertices:125, vertex normals:117
+added Background 'world_background' (gradientback)!
+created pathIntegrator!
+added Integrator 'default'!
+added Integrator 'volintegr'!
+setting up scene...done!
+scene mode:0
+starting build of kd-tree (7428 prims, cr:0.8 eb:0.33)
+getting triangle bounds...done!
+starting recursive build...
+
+=== kd-tree stats (0.14s) ===
+used/allocated kd-tree nodes: 46255/65536 (70.5795%)
+primitives in tree: 7428
+interior nodes: 23127 / leaf nodes: 23128 (empty: 4061 = 17.5588%)
+leaf prims: 51344 (6.91222x prims in tree, leaf size:1)
+   => 2.69282 prims per non-empty leaf
+leaves due to depth limit/bad splits: 4740/9555
+clipped triangles: 190672 (0 bad clips, 2662 null clips)
+scene_t::update(): new scene bound is 
+	(-7.9614, -9.64396, 4.89434), (3.26874, 6.4295, 11.5472)
+rendering 3 passes, min 4 samples, 4 per additional pass (max 12 total)
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 4075 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 3614 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+overall rendertime: 30.5187s
+flushing imageFilm buffer
+Saving Targa file as "yafaray.tga": OK
+** imageFilter stats: unlocked adds: 64472 locked adds: 24588
+Starting YafaRay XML loader...
+YafaRay 0.1.1
+Loading plugins ...
+Registered integrator type 'none'
+Registered background type 'textureback'
+Registered background type 'constant'
+Registered integrator type 'bidirectional'
+Registered integrator type 'DebugIntegrator'
+Registered material type 'blend_mat'
+Registered shader node type 'texture_mapper'
+Registered shader node type 'value'
+Registered shader node type 'mix'
+Registered shader node type 'layer'
+Registered shader node type 'vcolor'
+Registered light type 'spotlight'
+Registered volumetric handler type 'beer'
+Registered volumetric handler type 'sss'
+Registered material type 'glossy'
+Registered material type 'glass'
+Registered material type 'mirror'
+Registered material type 'null'
+Registered material type 'rough_glass'
+Registered integrator type 'photonmapping'
+Registered integrator type 'EmissionIntegrator'
+Registered integrator type 'SkyIntegrator'
+Registered material type 'coated_glossy'
+Registered background type 'darksky'
+Registered light type 'spherelight'
+Registered material type 'shinydiffusemat'
+Registered background type 'sunsky'
+Registered integrator type 'SingleScatterIntegrator'
+Registered light type 'directional'
+Registered volumeregion type 'SkyVolume'
+Registered volumeregion type 'NoiseVolume'
+Registered volumeregion type 'ExpDensityVolume'
+Registered texture type 'clouds'
+Registered texture type 'marble'
+Registered texture type 'wood'
+Registered texture type 'voronoi'
+Registered texture type 'musgrave'
+Registered texture type 'distorted_noise'
+Registered texture type 'rgb_cube'
+Registered texture type 'image'
+Registered material type 'light_mat'
+Registered material type 'mask_mat'
+Registered background type 'gradientback'
+Registered volumeregion type 'UniformVolume'
+Registered light type 'arealight'
+Registered light type 'meshlight'
+Registered light type 'bg_portal_light'
+Registered integrator type 'directlighting'
+Registered light type 'pointlight'
+Registered integrator type 'pathtracing'
+Registered light type 'sunlight'
+added Material 'defaultMat' (shinydiffusemat)!
+added Material 'trawa' (shinydiffusemat)!
+added Material '02 - Default' (shinydiffusemat)!
+added Material 'sciany' (shinydiffusemat)!
+added Material 'szyba' (glass)!
+added Light 'Lamp.001' (sunlight)!
+added Light 'Lamp' (pointlight)!
+added camera 'cam' (perspective)!
+smoothing angle:40 (thresh = 0.766044)
+vertices:125, vertex normals:117
+added Background 'world_background' (gradientback)!
+created pathIntegrator!
+added Integrator 'default'!
+added Integrator 'volintegr'!
+setting up scene...done!
+scene mode:0
+starting build of kd-tree (7428 prims, cr:0.8 eb:0.33)
+getting triangle bounds...done!
+starting recursive build...
+
+=== kd-tree stats (0.13s) ===
+used/allocated kd-tree nodes: 46255/65536 (70.5795%)
+primitives in tree: 7428
+interior nodes: 23127 / leaf nodes: 23128 (empty: 4061 = 17.5588%)
+leaf prims: 51344 (6.91222x prims in tree, leaf size:1)
+   => 2.69282 prims per non-empty leaf
+leaves due to depth limit/bad splits: 4740/9555
+clipped triangles: 190672 (0 bad clips, 2662 null clips)
+scene_t::update(): new scene bound is 
+	(-7.9614, -9.64396, 4.89434), (3.26874, 6.4295, 11.5472)
+rendering 3 passes, min 4 samples, 4 per additional pass (max 12 total)
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 1356 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 1276 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+overall rendertime: 7.5726s
+flushing imageFilm buffer
+Saving Targa file as "yafaray.tga": OK
+** imageFilter stats: unlocked adds: 46702 locked adds: 17730
+Starting YafaRay XML loader...
+YafaRay 0.1.1
+Loading plugins ...
+Registered integrator type 'none'
+Registered background type 'textureback'
+Registered background type 'constant'
+Registered integrator type 'bidirectional'
+Registered integrator type 'DebugIntegrator'
+Registered material type 'blend_mat'
+Registered shader node type 'texture_mapper'
+Registered shader node type 'value'
+Registered shader node type 'mix'
+Registered shader node type 'layer'
+Registered shader node type 'vcolor'
+Registered light type 'spotlight'
+Registered volumetric handler type 'beer'
+Registered volumetric handler type 'sss'
+Registered material type 'glossy'
+Registered material type 'glass'
+Registered material type 'mirror'
+Registered material type 'null'
+Registered material type 'rough_glass'
+Registered integrator type 'photonmapping'
+Registered integrator type 'EmissionIntegrator'
+Registered integrator type 'SkyIntegrator'
+Registered material type 'coated_glossy'
+Registered background type 'darksky'
+Registered light type 'spherelight'
+Registered material type 'shinydiffusemat'
+Registered background type 'sunsky'
+Registered integrator type 'SingleScatterIntegrator'
+Registered light type 'directional'
+Registered volumeregion type 'SkyVolume'
+Registered volumeregion type 'NoiseVolume'
+Registered volumeregion type 'ExpDensityVolume'
+Registered texture type 'clouds'
+Registered texture type 'marble'
+Registered texture type 'wood'
+Registered texture type 'voronoi'
+Registered texture type 'musgrave'
+Registered texture type 'distorted_noise'
+Registered texture type 'rgb_cube'
+Registered texture type 'image'
+Registered material type 'light_mat'
+Registered material type 'mask_mat'
+Registered background type 'gradientback'
+Registered volumeregion type 'UniformVolume'
+Registered light type 'arealight'
+Registered light type 'meshlight'
+Registered light type 'bg_portal_light'
+Registered integrator type 'directlighting'
+Registered light type 'pointlight'
+Registered integrator type 'pathtracing'
+Registered light type 'sunlight'
+added Material 'defaultMat' (shinydiffusemat)!
+added Material 'trawa' (shinydiffusemat)!
+added Material '02 - Default' (shinydiffusemat)!
+added Material 'sciany' (shinydiffusemat)!
+added Material 'szyba' (glass)!
+added Light 'Lamp.001' (sunlight)!
+added Light 'Lamp' (pointlight)!
+added camera 'cam' (perspective)!
+smoothing angle:40 (thresh = 0.766044)
+vertices:125, vertex normals:117
+added Background 'world_background' (gradientback)!
+created pathIntegrator!
+added Integrator 'default'!
+added Integrator 'volintegr'!
+setting up scene...done!
+scene mode:0
+starting build of kd-tree (7428 prims, cr:0.8 eb:0.33)
+getting triangle bounds...done!
+starting recursive build...
+
+=== kd-tree stats (0.14s) ===
+used/allocated kd-tree nodes: 46255/65536 (70.5795%)
+primitives in tree: 7428
+interior nodes: 23127 / leaf nodes: 23128 (empty: 4061 = 17.5588%)
+leaf prims: 51344 (6.91222x prims in tree, leaf size:1)
+   => 2.69282 prims per non-empty leaf
+leaves due to depth limit/bad splits: 4740/9555
+clipped triangles: 190672 (0 bad clips, 2662 null clips)
+scene_t::update(): new scene bound is 
+	(-7.9614, -9.64396, 4.89434), (3.26874, 6.4295, 11.5472)
+rendering 3 passes, min 4 samples, 4 per additional pass (max 12 total)
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 698 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 711 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+overall rendertime: 2.1715s
+flushing imageFilm buffer
+Saving Targa file as "yafaray.tga": OK
+** imageFilter stats: unlocked adds: 41206 locked adds: 16474
+Starting YafaRay XML loader...
+YafaRay 0.1.1
+Loading plugins ...
+Registered integrator type 'none'
+Registered background type 'textureback'
+Registered background type 'constant'
+Registered integrator type 'bidirectional'
+Registered integrator type 'DebugIntegrator'
+Registered material type 'blend_mat'
+Registered shader node type 'texture_mapper'
+Registered shader node type 'value'
+Registered shader node type 'mix'
+Registered shader node type 'layer'
+Registered shader node type 'vcolor'
+Registered light type 'spotlight'
+Registered volumetric handler type 'beer'
+Registered volumetric handler type 'sss'
+Registered material type 'glossy'
+Registered material type 'glass'
+Registered material type 'mirror'
+Registered material type 'null'
+Registered material type 'rough_glass'
+Registered integrator type 'photonmapping'
+Registered integrator type 'EmissionIntegrator'
+Registered integrator type 'SkyIntegrator'
+Registered material type 'coated_glossy'
+Registered background type 'darksky'
+Registered light type 'spherelight'
+Registered material type 'shinydiffusemat'
+Registered background type 'sunsky'
+Registered integrator type 'SingleScatterIntegrator'
+Registered light type 'directional'
+Registered volumeregion type 'SkyVolume'
+Registered volumeregion type 'NoiseVolume'
+Registered volumeregion type 'ExpDensityVolume'
+Registered texture type 'clouds'
+Registered texture type 'marble'
+Registered texture type 'wood'
+Registered texture type 'voronoi'
+Registered texture type 'musgrave'
+Registered texture type 'distorted_noise'
+Registered texture type 'rgb_cube'
+Registered texture type 'image'
+Registered material type 'light_mat'
+Registered material type 'mask_mat'
+Registered background type 'gradientback'
+Registered volumeregion type 'UniformVolume'
+Registered light type 'arealight'
+Registered light type 'meshlight'
+Registered light type 'bg_portal_light'
+Registered integrator type 'directlighting'
+Registered light type 'pointlight'
+Registered integrator type 'pathtracing'
+Registered light type 'sunlight'
+added Material 'defaultMat' (shinydiffusemat)!
+added Material 'trawa' (shinydiffusemat)!
+added Material '02 - Default' (shinydiffusemat)!
+added Material 'sciany' (shinydiffusemat)!
+added Material 'szyba' (glass)!
+added Light 'Lamp.001' (sunlight)!
+added Light 'Lamp' (pointlight)!
+added camera 'cam' (perspective)!
+smoothing angle:40 (thresh = 0.766044)
+vertices:125, vertex normals:117
+added Background 'world_background' (gradientback)!
+created pathIntegrator!
+added Integrator 'default'!
+added Integrator 'volintegr'!
+setting up scene...done!
+scene mode:0
+starting build of kd-tree (7428 prims, cr:0.8 eb:0.33)
+getting triangle bounds...done!
+starting recursive build...
+
+=== kd-tree stats (0.14s) ===
+used/allocated kd-tree nodes: 46255/65536 (70.5795%)
+primitives in tree: 7428
+interior nodes: 23127 / leaf nodes: 23128 (empty: 4061 = 17.5588%)
+leaf prims: 51344 (6.91222x prims in tree, leaf size:1)
+   => 2.69282 prims per non-empty leaf
+leaves due to depth limit/bad splits: 4740/9555
+clipped triangles: 190672 (0 bad clips, 2662 null clips)
+scene_t::update(): new scene bound is 
+	(-7.9614, -9.64396, 4.89434), (3.26874, 6.4295, 11.5472)
+rendering 3 passes, min 4 samples, 4 per additional pass (max 12 total)
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 0 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 0 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+overall rendertime: 0.068081s
+flushing imageFilm buffer
+Saving Targa file as "yafaray.tga": OK
+** imageFilter stats: unlocked adds: 35248 locked adds: 13904
+Starting YafaRay XML loader...
+YafaRay 0.1.1
+Loading plugins ...
+Registered integrator type 'none'
+Registered background type 'textureback'
+Registered background type 'constant'
+Registered integrator type 'bidirectional'
+Registered integrator type 'DebugIntegrator'
+Registered material type 'blend_mat'
+Registered shader node type 'texture_mapper'
+Registered shader node type 'value'
+Registered shader node type 'mix'
+Registered shader node type 'layer'
+Registered shader node type 'vcolor'
+Registered light type 'spotlight'
+Registered volumetric handler type 'beer'
+Registered volumetric handler type 'sss'
+Registered material type 'glossy'
+Registered material type 'glass'
+Registered material type 'mirror'
+Registered material type 'null'
+Registered material type 'rough_glass'
+Registered integrator type 'photonmapping'
+Registered integrator type 'EmissionIntegrator'
+Registered integrator type 'SkyIntegrator'
+Registered material type 'coated_glossy'
+Registered background type 'darksky'
+Registered light type 'spherelight'
+Registered material type 'shinydiffusemat'
+Registered background type 'sunsky'
+Registered integrator type 'SingleScatterIntegrator'
+Registered light type 'directional'
+Registered volumeregion type 'SkyVolume'
+Registered volumeregion type 'NoiseVolume'
+Registered volumeregion type 'ExpDensityVolume'
+Registered texture type 'clouds'
+Registered texture type 'marble'
+Registered texture type 'wood'
+Registered texture type 'voronoi'
+Registered texture type 'musgrave'
+Registered texture type 'distorted_noise'
+Registered texture type 'rgb_cube'
+Registered texture type 'image'
+Registered material type 'light_mat'
+Registered material type 'mask_mat'
+Registered background type 'gradientback'
+Registered volumeregion type 'UniformVolume'
+Registered light type 'arealight'
+Registered light type 'meshlight'
+Registered light type 'bg_portal_light'
+Registered integrator type 'directlighting'
+Registered light type 'pointlight'
+Registered integrator type 'pathtracing'
+Registered light type 'sunlight'
+added Material 'defaultMat' (shinydiffusemat)!
+added Material 'trawa' (shinydiffusemat)!
+added Material '02 - Default' (shinydiffusemat)!
+added Material 'sciany' (shinydiffusemat)!
+added Material 'szyba' (glass)!
+added Light 'Lamp.001' (sunlight)!
+added Light 'Lamp' (pointlight)!
+added camera 'cam' (perspective)!
+smoothing angle:40 (thresh = 0.766044)
+vertices:125, vertex normals:117
+added Background 'world_background' (gradientback)!
+created pathIntegrator!
+added Integrator 'default'!
+added Integrator 'volintegr'!
+setting up scene...done!
+scene mode:0
+starting build of kd-tree (7428 prims, cr:0.8 eb:0.33)
+getting triangle bounds...done!
+starting recursive build...
+
+=== kd-tree stats (0.13s) ===
+used/allocated kd-tree nodes: 46255/65536 (70.5795%)
+primitives in tree: 7428
+interior nodes: 23127 / leaf nodes: 23128 (empty: 4061 = 17.5588%)
+leaf prims: 51344 (6.91222x prims in tree, leaf size:1)
+   => 2.69282 prims per non-empty leaf
+leaves due to depth limit/bad splits: 4740/9555
+clipped triangles: 190672 (0 bad clips, 2662 null clips)
+scene_t::update(): new scene bound is 
+	(-7.9614, -9.64396, 4.89434), (3.26874, 6.4295, 11.5472)
+rendering 3 passes, min 4 samples, 4 per additional pass (max 12 total)
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 1309 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 1319 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+overall rendertime: 5.82965s
+flushing imageFilm buffer
+Saving Targa file as "yafaray.tga": OK
+** imageFilter stats: unlocked adds: 45434 locked adds: 18106
+Starting YafaRay XML loader...
+YafaRay 0.1.1
+Loading plugins ...
+Registered integrator type 'none'
+Registered background type 'textureback'
+Registered background type 'constant'
+Registered integrator type 'bidirectional'
+Registered integrator type 'DebugIntegrator'
+Registered material type 'blend_mat'
+Registered shader node type 'texture_mapper'
+Registered shader node type 'value'
+Registered shader node type 'mix'
+Registered shader node type 'layer'
+Registered shader node type 'vcolor'
+Registered light type 'spotlight'
+Registered volumetric handler type 'beer'
+Registered volumetric handler type 'sss'
+Registered material type 'glossy'
+Registered material type 'glass'
+Registered material type 'mirror'
+Registered material type 'null'
+Registered material type 'rough_glass'
+Registered integrator type 'photonmapping'
+Registered integrator type 'EmissionIntegrator'
+Registered integrator type 'SkyIntegrator'
+Registered material type 'coated_glossy'
+Registered background type 'darksky'
+Registered light type 'spherelight'
+Registered material type 'shinydiffusemat'
+Registered background type 'sunsky'
+Registered integrator type 'SingleScatterIntegrator'
+Registered light type 'directional'
+Registered volumeregion type 'SkyVolume'
+Registered volumeregion type 'NoiseVolume'
+Registered volumeregion type 'ExpDensityVolume'
+Registered texture type 'clouds'
+Registered texture type 'marble'
+Registered texture type 'wood'
+Registered texture type 'voronoi'
+Registered texture type 'musgrave'
+Registered texture type 'distorted_noise'
+Registered texture type 'rgb_cube'
+Registered texture type 'image'
+Registered material type 'light_mat'
+Registered material type 'mask_mat'
+Registered background type 'gradientback'
+Registered volumeregion type 'UniformVolume'
+Registered light type 'arealight'
+Registered light type 'meshlight'
+Registered light type 'bg_portal_light'
+Registered integrator type 'directlighting'
+Registered light type 'pointlight'
+Registered integrator type 'pathtracing'
+Registered light type 'sunlight'
+added Material 'defaultMat' (shinydiffusemat)!
+added Material 'trawa' (shinydiffusemat)!
+added Material '02 - Default' (shinydiffusemat)!
+added Material 'sciany' (shinydiffusemat)!
+added Material 'szyba' (glass)!
+added Light 'Lamp.001' (sunlight)!
+added Light 'Lamp' (pointlight)!
+added camera 'cam' (perspective)!
+smoothing angle:40 (thresh = 0.766044)
+vertices:125, vertex normals:117
+added Background 'world_background' (gradientback)!
+created pathIntegrator!
+added Integrator 'default'!
+added Integrator 'volintegr'!
+setting up scene...done!
+scene mode:0
+starting build of kd-tree (7428 prims, cr:0.8 eb:0.33)
+getting triangle bounds...done!
+starting recursive build...
+
+=== kd-tree stats (0.13s) ===
+used/allocated kd-tree nodes: 46255/65536 (70.5795%)
+primitives in tree: 7428
+interior nodes: 23127 / leaf nodes: 23128 (empty: 4061 = 17.5588%)
+leaf prims: 51344 (6.91222x prims in tree, leaf size:1)
+   => 2.69282 prims per non-empty leaf
+leaves due to depth limit/bad splits: 4740/9555
+clipped triangles: 190672 (0 bad clips, 2662 null clips)
+scene_t::update(): new scene bound is 
+	(-7.9614, -9.64396, 4.89434), (3.26874, 6.4295, 11.5472)
+rendering 3 passes, min 4 samples, 4 per additional pass (max 12 total)
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 686 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 688 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+overall rendertime: 6.18521s
+flushing imageFilm buffer
+Saving Targa file as "yafaray.tga": OK
+** imageFilter stats: unlocked adds: 40738 locked adds: 16126
+Starting YafaRay XML loader...
+YafaRay 0.1.1
+Loading plugins ...
+Registered integrator type 'none'
+Registered background type 'textureback'
+Registered background type 'constant'
+Registered integrator type 'bidirectional'
+Registered integrator type 'DebugIntegrator'
+Registered material type 'blend_mat'
+Registered shader node type 'texture_mapper'
+Registered shader node type 'value'
+Registered shader node type 'mix'
+Registered shader node type 'layer'
+Registered shader node type 'vcolor'
+Registered light type 'spotlight'
+Registered volumetric handler type 'beer'
+Registered volumetric handler type 'sss'
+Registered material type 'glossy'
+Registered material type 'glass'
+Registered material type 'mirror'
+Registered material type 'null'
+Registered material type 'rough_glass'
+Registered integrator type 'photonmapping'
+Registered integrator type 'EmissionIntegrator'
+Registered integrator type 'SkyIntegrator'
+Registered material type 'coated_glossy'
+Registered background type 'darksky'
+Registered light type 'spherelight'
+Registered material type 'shinydiffusemat'
+Registered background type 'sunsky'
+Registered integrator type 'SingleScatterIntegrator'
+Registered light type 'directional'
+Registered volumeregion type 'SkyVolume'
+Registered volumeregion type 'NoiseVolume'
+Registered volumeregion type 'ExpDensityVolume'
+Registered texture type 'clouds'
+Registered texture type 'marble'
+Registered texture type 'wood'
+Registered texture type 'voronoi'
+Registered texture type 'musgrave'
+Registered texture type 'distorted_noise'
+Registered texture type 'rgb_cube'
+Registered texture type 'image'
+Registered material type 'light_mat'
+Registered material type 'mask_mat'
+Registered background type 'gradientback'
+Registered volumeregion type 'UniformVolume'
+Registered light type 'arealight'
+Registered light type 'meshlight'
+Registered light type 'bg_portal_light'
+Registered integrator type 'directlighting'
+Registered light type 'pointlight'
+Registered integrator type 'pathtracing'
+Registered light type 'sunlight'
+added Material 'defaultMat' (shinydiffusemat)!
+added Material 'trawa' (shinydiffusemat)!
+added Material '02 - Default' (shinydiffusemat)!
+added Material 'sciany' (shinydiffusemat)!
+added Material 'szyba' (glass)!
+added Light 'Lamp.001' (sunlight)!
+added Light 'Lamp' (pointlight)!
+added camera 'cam' (perspective)!
+smoothing angle:40 (thresh = 0.766044)
+vertices:125, vertex normals:117
+added Background 'world_background' (gradientback)!
+created pathIntegrator!
+added Integrator 'default'!
+added Integrator 'volintegr'!
+setting up scene...done!
+scene mode:0
+starting build of kd-tree (7428 prims, cr:0.8 eb:0.33)
+getting triangle bounds...done!
+starting recursive build...
+
+=== kd-tree stats (0.13s) ===
+used/allocated kd-tree nodes: 46255/65536 (70.5795%)
+primitives in tree: 7428
+interior nodes: 23127 / leaf nodes: 23128 (empty: 4061 = 17.5588%)
+leaf prims: 51344 (6.91222x prims in tree, leaf size:1)
+   => 2.69282 prims per non-empty leaf
+leaves due to depth limit/bad splits: 4740/9555
+clipped triangles: 190672 (0 bad clips, 2662 null clips)
+scene_t::update(): new scene bound is 
+	(-7.9614, -9.64396, 4.89434), (3.26874, 6.4295, 11.5472)
+rendering 3 passes, min 4 samples, 4 per additional pass (max 12 total)
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 169 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 163 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+overall rendertime: 0.83683s
+flushing imageFilm buffer
+Saving Targa file as "yafaray.tga": OK
+** imageFilter stats: unlocked adds: 36893 locked adds: 14523
+Starting YafaRay XML loader...
+YafaRay 0.1.1
+Loading plugins ...
+Registered integrator type 'none'
+Registered background type 'textureback'
+Registered background type 'constant'
+Registered integrator type 'bidirectional'
+Registered integrator type 'DebugIntegrator'
+Registered material type 'blend_mat'
+Registered shader node type 'texture_mapper'
+Registered shader node type 'value'
+Registered shader node type 'mix'
+Registered shader node type 'layer'
+Registered shader node type 'vcolor'
+Registered light type 'spotlight'
+Registered volumetric handler type 'beer'
+Registered volumetric handler type 'sss'
+Registered material type 'glossy'
+Registered material type 'glass'
+Registered material type 'mirror'
+Registered material type 'null'
+Registered material type 'rough_glass'
+Registered integrator type 'photonmapping'
+Registered integrator type 'EmissionIntegrator'
+Registered integrator type 'SkyIntegrator'
+Registered material type 'coated_glossy'
+Registered background type 'darksky'
+Registered light type 'spherelight'
+Registered material type 'shinydiffusemat'
+Registered background type 'sunsky'
+Registered integrator type 'SingleScatterIntegrator'
+Registered light type 'directional'
+Registered volumeregion type 'SkyVolume'
+Registered volumeregion type 'NoiseVolume'
+Registered volumeregion type 'ExpDensityVolume'
+Registered texture type 'clouds'
+Registered texture type 'marble'
+Registered texture type 'wood'
+Registered texture type 'voronoi'
+Registered texture type 'musgrave'
+Registered texture type 'distorted_noise'
+Registered texture type 'rgb_cube'
+Registered texture type 'image'
+Registered material type 'light_mat'
+Registered material type 'mask_mat'
+Registered background type 'gradientback'
+Registered volumeregion type 'UniformVolume'
+Registered light type 'arealight'
+Registered light type 'meshlight'
+Registered light type 'bg_portal_light'
+Registered integrator type 'directlighting'
+Registered light type 'pointlight'
+Registered integrator type 'pathtracing'
+Registered light type 'sunlight'
+added Material 'defaultMat' (shinydiffusemat)!
+added Material 'trawa' (shinydiffusemat)!
+added Material '02 - Default' (shinydiffusemat)!
+added Material 'sciany' (shinydiffusemat)!
+added Material 'szyba' (glass)!
+added Light 'Lamp.001' (sunlight)!
+added Light 'Lamp' (pointlight)!
+added camera 'cam' (perspective)!
+smoothing angle:40 (thresh = 0.766044)
+vertices:125, vertex normals:117
+added Background 'world_background' (gradientback)!
+created pathIntegrator!
+added Integrator 'default'!
+added Integrator 'volintegr'!
+setting up scene...done!
+scene mode:0
+starting build of kd-tree (7428 prims, cr:0.8 eb:0.33)
+getting triangle bounds...done!
+starting recursive build...
+
+=== kd-tree stats (0.14s) ===
+used/allocated kd-tree nodes: 46255/65536 (70.5795%)
+primitives in tree: 7428
+interior nodes: 23127 / leaf nodes: 23128 (empty: 4061 = 17.5588%)
+leaf prims: 51344 (6.91222x prims in tree, leaf size:1)
+   => 2.69282 prims per non-empty leaf
+leaves due to depth limit/bad splits: 4740/9555
+clipped triangles: 190672 (0 bad clips, 2662 null clips)
+scene_t::update(): new scene bound is 
+	(-7.9614, -9.64396, 4.89434), (3.26874, 6.4295, 11.5472)
+rendering 3 passes, min 4 samples, 4 per additional pass (max 12 total)
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 0 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 0 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+overall rendertime: 0.06652s
+flushing imageFilm buffer
+Saving Targa file as "yafaray.tga": OK
+** imageFilter stats: unlocked adds: 35248 locked adds: 13904
+Starting YafaRay XML loader...
+YafaRay 0.1.1
+Loading plugins ...
+Registered integrator type 'none'
+Registered background type 'textureback'
+Registered background type 'constant'
+Registered integrator type 'bidirectional'
+Registered integrator type 'DebugIntegrator'
+Registered material type 'blend_mat'
+Registered shader node type 'texture_mapper'
+Registered shader node type 'value'
+Registered shader node type 'mix'
+Registered shader node type 'layer'
+Registered shader node type 'vcolor'
+Registered light type 'spotlight'
+Registered volumetric handler type 'beer'
+Registered volumetric handler type 'sss'
+Registered material type 'glossy'
+Registered material type 'glass'
+Registered material type 'mirror'
+Registered material type 'null'
+Registered material type 'rough_glass'
+Registered integrator type 'photonmapping'
+Registered integrator type 'EmissionIntegrator'
+Registered integrator type 'SkyIntegrator'
+Registered material type 'coated_glossy'
+Registered background type 'darksky'
+Registered light type 'spherelight'
+Registered material type 'shinydiffusemat'
+Registered background type 'sunsky'
+Registered integrator type 'SingleScatterIntegrator'
+Registered light type 'directional'
+Registered volumeregion type 'SkyVolume'
+Registered volumeregion type 'NoiseVolume'
+Registered volumeregion type 'ExpDensityVolume'
+Registered texture type 'clouds'
+Registered texture type 'marble'
+Registered texture type 'wood'
+Registered texture type 'voronoi'
+Registered texture type 'musgrave'
+Registered texture type 'distorted_noise'
+Registered texture type 'rgb_cube'
+Registered texture type 'image'
+Registered material type 'light_mat'
+Registered material type 'mask_mat'
+Registered background type 'gradientback'
+Registered volumeregion type 'UniformVolume'
+Registered light type 'arealight'
+Registered light type 'meshlight'
+Registered light type 'bg_portal_light'
+Registered integrator type 'directlighting'
+Registered light type 'pointlight'
+Registered integrator type 'pathtracing'
+Registered light type 'sunlight'
+added Material 'defaultMat' (shinydiffusemat)!
+added Material 'trawa' (shinydiffusemat)!
+added Material '02 - Default' (shinydiffusemat)!
+added Material 'sciany' (shinydiffusemat)!
+added Material 'szyba' (glass)!
+added Light 'Lamp.001' (sunlight)!
+added Light 'Lamp' (pointlight)!
+added camera 'cam' (perspective)!
+smoothing angle:40 (thresh = 0.766044)
+vertices:125, vertex normals:117
+added Background 'world_background' (gradientback)!
+created pathIntegrator!
+added Integrator 'default'!
+added Integrator 'volintegr'!
+setting up scene...done!
+scene mode:0
+starting build of kd-tree (7428 prims, cr:0.8 eb:0.33)
+getting triangle bounds...done!
+starting recursive build...
+
+=== kd-tree stats (0.14s) ===
+used/allocated kd-tree nodes: 46255/65536 (70.5795%)
+primitives in tree: 7428
+interior nodes: 23127 / leaf nodes: 23128 (empty: 4061 = 17.5588%)
+leaf prims: 51344 (6.91222x prims in tree, leaf size:1)
+   => 2.69282 prims per non-empty leaf
+leaves due to depth limit/bad splits: 4740/9555
+clipped triangles: 190672 (0 bad clips, 2662 null clips)
+scene_t::update(): new scene bound is 
+	(-7.9614, -9.64396, 4.89434), (3.26874, 6.4295, 11.5472)
+rendering 3 passes, min 4 samples, 4 per additional pass (max 12 total)
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 0 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 0 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+overall rendertime: 0.067962s
+flushing imageFilm buffer
+Saving Targa file as "yafaray.tga": OK
+** imageFilter stats: unlocked adds: 35253 locked adds: 13899
+Starting YafaRay XML loader...
+YafaRay 0.1.1
+Loading plugins ...
+Registered integrator type 'none'
+Registered background type 'textureback'
+Registered background type 'constant'
+Registered integrator type 'bidirectional'
+Registered integrator type 'DebugIntegrator'
+Registered material type 'blend_mat'
+Registered shader node type 'texture_mapper'
+Registered shader node type 'value'
+Registered shader node type 'mix'
+Registered shader node type 'layer'
+Registered shader node type 'vcolor'
+Registered light type 'spotlight'
+Registered volumetric handler type 'beer'
+Registered volumetric handler type 'sss'
+Registered material type 'glossy'
+Registered material type 'glass'
+Registered material type 'mirror'
+Registered material type 'null'
+Registered material type 'rough_glass'
+Registered integrator type 'photonmapping'
+Registered integrator type 'EmissionIntegrator'
+Registered integrator type 'SkyIntegrator'
+Registered material type 'coated_glossy'
+Registered background type 'darksky'
+Registered light type 'spherelight'
+Registered material type 'shinydiffusemat'
+Registered background type 'sunsky'
+Registered integrator type 'SingleScatterIntegrator'
+Registered light type 'directional'
+Registered volumeregion type 'SkyVolume'
+Registered volumeregion type 'NoiseVolume'
+Registered volumeregion type 'ExpDensityVolume'
+Registered texture type 'clouds'
+Registered texture type 'marble'
+Registered texture type 'wood'
+Registered texture type 'voronoi'
+Registered texture type 'musgrave'
+Registered texture type 'distorted_noise'
+Registered texture type 'rgb_cube'
+Registered texture type 'image'
+Registered material type 'light_mat'
+Registered material type 'mask_mat'
+Registered background type 'gradientback'
+Registered volumeregion type 'UniformVolume'
+Registered light type 'arealight'
+Registered light type 'meshlight'
+Registered light type 'bg_portal_light'
+Registered integrator type 'directlighting'
+Registered light type 'pointlight'
+Registered integrator type 'pathtracing'
+Registered light type 'sunlight'
+added Material 'defaultMat' (shinydiffusemat)!
+added Material 'trawa' (shinydiffusemat)!
+added Material '02 - Default' (shinydiffusemat)!
+added Material 'sciany' (shinydiffusemat)!
+added Material 'szyba' (glass)!
+added Light 'Lamp.001' (sunlight)!
+added Light 'Lamp' (pointlight)!
+added camera 'cam' (perspective)!
+smoothing angle:40 (thresh = 0.766044)
+vertices:125, vertex normals:117
+added Background 'world_background' (gradientback)!
+created pathIntegrator!
+added Integrator 'default'!
+added Integrator 'volintegr'!
+setting up scene...done!
+scene mode:0
+starting build of kd-tree (7428 prims, cr:0.8 eb:0.33)
+getting triangle bounds...done!
+starting recursive build...
+
+=== kd-tree stats (0.14s) ===
+used/allocated kd-tree nodes: 46255/65536 (70.5795%)
+primitives in tree: 7428
+interior nodes: 23127 / leaf nodes: 23128 (empty: 4061 = 17.5588%)
+leaf prims: 51344 (6.91222x prims in tree, leaf size:1)
+   => 2.69282 prims per non-empty leaf
+leaves due to depth limit/bad splits: 4740/9555
+clipped triangles: 190672 (0 bad clips, 2662 null clips)
+scene_t::update(): new scene bound is 
+	(-7.9614, -9.64396, 4.89434), (3.26874, 6.4295, 11.5472)
+rendering 3 passes, min 4 samples, 4 per additional pass (max 12 total)
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 1482 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 1492 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+overall rendertime: 6.08962s
+flushing imageFilm buffer
+Saving Targa file as "yafaray.tga": OK
+** imageFilter stats: unlocked adds: 47086 locked adds: 18778
+Starting YafaRay XML loader...
+YafaRay 0.1.1
+Loading plugins ...
+Registered integrator type 'none'
+Registered background type 'textureback'
+Registered background type 'constant'
+Registered integrator type 'bidirectional'
+Registered integrator type 'DebugIntegrator'
+Registered material type 'blend_mat'
+Registered shader node type 'texture_mapper'
+Registered shader node type 'value'
+Registered shader node type 'mix'
+Registered shader node type 'layer'
+Registered shader node type 'vcolor'
+Registered light type 'spotlight'
+Registered volumetric handler type 'beer'
+Registered volumetric handler type 'sss'
+Registered material type 'glossy'
+Registered material type 'glass'
+Registered material type 'mirror'
+Registered material type 'null'
+Registered material type 'rough_glass'
+Registered integrator type 'photonmapping'
+Registered integrator type 'EmissionIntegrator'
+Registered integrator type 'SkyIntegrator'
+Registered material type 'coated_glossy'
+Registered background type 'darksky'
+Registered light type 'spherelight'
+Registered material type 'shinydiffusemat'
+Registered background type 'sunsky'
+Registered integrator type 'SingleScatterIntegrator'
+Registered light type 'directional'
+Registered volumeregion type 'SkyVolume'
+Registered volumeregion type 'NoiseVolume'
+Registered volumeregion type 'ExpDensityVolume'
+Registered texture type 'clouds'
+Registered texture type 'marble'
+Registered texture type 'wood'
+Registered texture type 'voronoi'
+Registered texture type 'musgrave'
+Registered texture type 'distorted_noise'
+Registered texture type 'rgb_cube'
+Registered texture type 'image'
+Registered material type 'light_mat'
+Registered material type 'mask_mat'
+Registered background type 'gradientback'
+Registered volumeregion type 'UniformVolume'
+Registered light type 'arealight'
+Registered light type 'meshlight'
+Registered light type 'bg_portal_light'
+Registered integrator type 'directlighting'
+Registered light type 'pointlight'
+Registered integrator type 'pathtracing'
+Registered light type 'sunlight'
+added Material 'defaultMat' (shinydiffusemat)!
+added Material 'trawa' (shinydiffusemat)!
+added Material '02 - Default' (shinydiffusemat)!
+added Material 'sciany' (shinydiffusemat)!
+added Material 'szyba' (glass)!
+added Light 'Lamp.001' (sunlight)!
+added Light 'Lamp' (pointlight)!
+added camera 'cam' (perspective)!
+smoothing angle:40 (thresh = 0.766044)
+vertices:125, vertex normals:117
+added Background 'world_background' (gradientback)!
+created pathIntegrator!
+added Integrator 'default'!
+added Integrator 'volintegr'!
+setting up scene...done!
+scene mode:0
+starting build of kd-tree (7428 prims, cr:0.8 eb:0.33)
+getting triangle bounds...done!
+starting recursive build...
+
+=== kd-tree stats (0.14s) ===
+used/allocated kd-tree nodes: 46255/65536 (70.5795%)
+primitives in tree: 7428
+interior nodes: 23127 / leaf nodes: 23128 (empty: 4061 = 17.5588%)
+leaf prims: 51344 (6.91222x prims in tree, leaf size:1)
+   => 2.69282 prims per non-empty leaf
+leaves due to depth limit/bad splits: 4740/9555
+clipped triangles: 190672 (0 bad clips, 2662 null clips)
+scene_t::update(): new scene bound is 
+	(-7.9614, -9.64396, 4.89434), (3.26874, 6.4295, 11.5472)
+rendering 3 passes, min 4 samples, 4 per additional pass (max 12 total)
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 236 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 241 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+overall rendertime: 3.0173s
+flushing imageFilm buffer
+Saving Targa file as "yafaray.tga": OK
+** imageFilter stats: unlocked adds: 37335 locked adds: 14585
+Starting YafaRay XML loader...
+YafaRay 0.1.1
+Loading plugins ...
+Registered integrator type 'none'
+Registered background type 'textureback'
+Registered background type 'constant'
+Registered integrator type 'bidirectional'
+Registered integrator type 'DebugIntegrator'
+Registered material type 'blend_mat'
+Registered shader node type 'texture_mapper'
+Registered shader node type 'value'
+Registered shader node type 'mix'
+Registered shader node type 'layer'
+Registered shader node type 'vcolor'
+Registered light type 'spotlight'
+Registered volumetric handler type 'beer'
+Registered volumetric handler type 'sss'
+Registered material type 'glossy'
+Registered material type 'glass'
+Registered material type 'mirror'
+Registered material type 'null'
+Registered material type 'rough_glass'
+Registered integrator type 'photonmapping'
+Registered integrator type 'EmissionIntegrator'
+Registered integrator type 'SkyIntegrator'
+Registered material type 'coated_glossy'
+Registered background type 'darksky'
+Registered light type 'spherelight'
+Registered material type 'shinydiffusemat'
+Registered background type 'sunsky'
+Registered integrator type 'SingleScatterIntegrator'
+Registered light type 'directional'
+Registered volumeregion type 'SkyVolume'
+Registered volumeregion type 'NoiseVolume'
+Registered volumeregion type 'ExpDensityVolume'
+Registered texture type 'clouds'
+Registered texture type 'marble'
+Registered texture type 'wood'
+Registered texture type 'voronoi'
+Registered texture type 'musgrave'
+Registered texture type 'distorted_noise'
+Registered texture type 'rgb_cube'
+Registered texture type 'image'
+Registered material type 'light_mat'
+Registered material type 'mask_mat'
+Registered background type 'gradientback'
+Registered volumeregion type 'UniformVolume'
+Registered light type 'arealight'
+Registered light type 'meshlight'
+Registered light type 'bg_portal_light'
+Registered integrator type 'directlighting'
+Registered light type 'pointlight'
+Registered integrator type 'pathtracing'
+Registered light type 'sunlight'
+added Material 'defaultMat' (shinydiffusemat)!
+added Material 'trawa' (shinydiffusemat)!
+added Material '02 - Default' (shinydiffusemat)!
+added Material 'sciany' (shinydiffusemat)!
+added Material 'szyba' (glass)!
+added Light 'Lamp.001' (sunlight)!
+added Light 'Lamp' (pointlight)!
+added camera 'cam' (perspective)!
+smoothing angle:40 (thresh = 0.766044)
+vertices:125, vertex normals:117
+added Background 'world_background' (gradientback)!
+created pathIntegrator!
+added Integrator 'default'!
+added Integrator 'volintegr'!
+setting up scene...done!
+scene mode:0
+starting build of kd-tree (7428 prims, cr:0.8 eb:0.33)
+getting triangle bounds...done!
+starting recursive build...
+
+=== kd-tree stats (0.14s) ===
+used/allocated kd-tree nodes: 46255/65536 (70.5795%)
+primitives in tree: 7428
+interior nodes: 23127 / leaf nodes: 23128 (empty: 4061 = 17.5588%)
+leaf prims: 51344 (6.91222x prims in tree, leaf size:1)
+   => 2.69282 prims per non-empty leaf
+leaves due to depth limit/bad splits: 4740/9555
+clipped triangles: 190672 (0 bad clips, 2662 null clips)
+scene_t::update(): new scene bound is 
+	(-7.9614, -9.64396, 4.89434), (3.26874, 6.4295, 11.5472)
+rendering 3 passes, min 4 samples, 4 per additional pass (max 12 total)
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 0 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 0 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+overall rendertime: 0.068194s
+flushing imageFilm buffer
+Saving Targa file as "yafaray.tga": OK
+** imageFilter stats: unlocked adds: 35256 locked adds: 13896
+Starting YafaRay XML loader...
+YafaRay 0.1.1
+Loading plugins ...
+Registered integrator type 'none'
+Registered background type 'textureback'
+Registered background type 'constant'
+Registered integrator type 'bidirectional'
+Registered integrator type 'DebugIntegrator'
+Registered material type 'blend_mat'
+Registered shader node type 'texture_mapper'
+Registered shader node type 'value'
+Registered shader node type 'mix'
+Registered shader node type 'layer'
+Registered shader node type 'vcolor'
+Registered light type 'spotlight'
+Registered volumetric handler type 'beer'
+Registered volumetric handler type 'sss'
+Registered material type 'glossy'
+Registered material type 'glass'
+Registered material type 'mirror'
+Registered material type 'null'
+Registered material type 'rough_glass'
+Registered integrator type 'photonmapping'
+Registered integrator type 'EmissionIntegrator'
+Registered integrator type 'SkyIntegrator'
+Registered material type 'coated_glossy'
+Registered background type 'darksky'
+Registered light type 'spherelight'
+Registered material type 'shinydiffusemat'
+Registered background type 'sunsky'
+Registered integrator type 'SingleScatterIntegrator'
+Registered light type 'directional'
+Registered volumeregion type 'SkyVolume'
+Registered volumeregion type 'NoiseVolume'
+Registered volumeregion type 'ExpDensityVolume'
+Registered texture type 'clouds'
+Registered texture type 'marble'
+Registered texture type 'wood'
+Registered texture type 'voronoi'
+Registered texture type 'musgrave'
+Registered texture type 'distorted_noise'
+Registered texture type 'rgb_cube'
+Registered texture type 'image'
+Registered material type 'light_mat'
+Registered material type 'mask_mat'
+Registered background type 'gradientback'
+Registered volumeregion type 'UniformVolume'
+Registered light type 'arealight'
+Registered light type 'meshlight'
+Registered light type 'bg_portal_light'
+Registered integrator type 'directlighting'
+Registered light type 'pointlight'
+Registered integrator type 'pathtracing'
+Registered light type 'sunlight'
+added Material 'defaultMat' (shinydiffusemat)!
+added Material 'trawa' (shinydiffusemat)!
+added Material '02 - Default' (shinydiffusemat)!
+added Material 'sciany' (shinydiffusemat)!
+added Material 'szyba' (glass)!
+added Light 'Lamp.001' (sunlight)!
+added Light 'Lamp' (pointlight)!
+added camera 'cam' (perspective)!
+smoothing angle:40 (thresh = 0.766044)
+vertices:125, vertex normals:117
+added Background 'world_background' (gradientback)!
+created pathIntegrator!
+added Integrator 'default'!
+added Integrator 'volintegr'!
+setting up scene...done!
+scene mode:0
+starting build of kd-tree (7428 prims, cr:0.8 eb:0.33)
+getting triangle bounds...done!
+starting recursive build...
+
+=== kd-tree stats (0.14s) ===
+used/allocated kd-tree nodes: 46255/65536 (70.5795%)
+primitives in tree: 7428
+interior nodes: 23127 / leaf nodes: 23128 (empty: 4061 = 17.5588%)
+leaf prims: 51344 (6.91222x prims in tree, leaf size:1)
+   => 2.69282 prims per non-empty leaf
+leaves due to depth limit/bad splits: 4740/9555
+clipped triangles: 190672 (0 bad clips, 2662 null clips)
+scene_t::update(): new scene bound is 
+	(-7.9614, -9.64396, 4.89434), (3.26874, 6.4295, 11.5472)
+rendering 3 passes, min 4 samples, 4 per additional pass (max 12 total)
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 0 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+Saving Targa file as "yafaray.tga": OK
+imageFilm_t::nextPass: resampling 0 pixels!
+[                                                                ] (0%)[#####                                                           ] (8%)[##########                                                      ] (16%)[################                                                ] (25%)[#####################                                           ] (33%)[##########################                                      ] (41%)[################################                                ] (50%)[#####################################                           ] (58%)[##########################################                      ] (66%)[################################################                ] (75%)[#####################################################           ] (83%)[##########################################################      ] (91%)[################################################################] (done)
+overall rendertime: 0.064686s
+flushing imageFilm buffer
+Saving Targa file as "yafaray.tga": OK
+** imageFilter stats: unlocked adds: 35273 locked adds: 13879
