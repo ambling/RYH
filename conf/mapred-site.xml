@@ -20,6 +20,12 @@
 	</property>
 	
 	<property>
+		<name>mapred.local.dir</name>
+			<value>/home/hadoop/hadoop/tmpMapred</value>
+			<description>Comma-separated list of paths on the local filesystem where temporary Map/Reduce data is written.</description>
+	</property>
+	
+	<property>
 		<name>mapred.task.timeout</name>
 			<value>600000000</value>
 			<description>The time limit for each task</description>

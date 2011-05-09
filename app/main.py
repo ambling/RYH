@@ -24,13 +24,15 @@ def findHeight(filename):
 	infile.close()
 
 
-print "Please input the job name:"
-job_name = sys.stdin.readline()
-job_name = job_name[:-1]
+#print "Please input the job name:"
+#job_name = sys.stdin.readline()
+#job_name = job_name[:-1]
+job_name = sys.argv[1]
 
-print "Please input the XML file name:"
-xml_file = sys.stdin.readline()
-xml_file = xml_file[:-1]
+#print "Please input the XML file name:"
+#xml_file = sys.stdin.readline()
+#xml_file = xml_file[:-1]
+xml_file = sys.argv[2]
 
 os.system("cp $HADOOP_HOME/app/xmls/" + xml_file + " " + xml_file)
 #print "Please input the width:"
@@ -47,7 +49,7 @@ image_height = findHeight(xml_file)
 #print height
 
 os.system("python $HADOOP_HOME/app/divide/simplize.py " + xml_file + " 64")
-os.system("python $HADOOP_HOME/app/divide/divide.py 0.05 5")
+os.system("python $HADOOP_HOME/app/divide/divide.py 0.01 1")
 os.system("python $HADOOP_HOME/app/divide/pre.py " + image_width + " " + image_height + " 64")
 
 os.system("rm afterSimplize.xml")
@@ -59,7 +61,7 @@ print "$HADOOP_HOME/bin/hadoop fs -mkdir /" + job_name + ":"
 os.system("$HADOOP_HOME/bin/hadoop fs -mkdir /" + job_name)  #need to check if exists
 print "$HADOOP_HOME/bin/hadoop fs -put input /" + job_name + ":"
 os.system("$HADOOP_HOME/bin/hadoop fs -put input /" + job_name)
-os.system("mv input $HADOOP_HOME/app/output/"+job_name+'_input')
+os.system("cp input $HADOOP_HOME/app/output/"+job_name+'_input')
 
 hadoop_command = "$HADOOP_HOME/bin/hadoop jar " \
 		+ "$HADOOP_HOME/contrib/streaming/hadoop-0.20.2-streaming.jar "\
