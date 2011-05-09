@@ -20,6 +20,14 @@
 	</property>
 	
 	<property>
+		<name>mapred.tasktracker.map.tasks.maximum</name>
+		<value>1</value>
+		<description>The maximum number of map tasks that will be run
+		simultaneously by a task tracker.
+		</description>
+	</property>
+
+	<property>
 		<name>mapred.local.dir</name>
 			<value>/home/hadoop/hadoop/tmpMapred</value>
 			<description>Comma-separated list of paths on the local filesystem where temporary Map/Reduce data is written.</description>
